@@ -1,0 +1,30 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 95vh;
+    align-content: end;
+    gap: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+.list-group, #input{
+    grid-column-start: 2;
+}
+
+#username{
+    align-self: start;
+    grid-column-start: 2;
+}
+
+button{
+    grid-column-start: 2;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.yourMessage{
+    text-align: right;
+}
